@@ -1,0 +1,333 @@
+/* public */
+
+section {
+    width: 100%;
+    overflow: hidden;
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+    height: 100%;
+    z-index: 0;
+}
+h2 {
+    font-size: 46px;
+    font-weight: normal;
+}
+/* first page */
+
+#block-firstPage {
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(160deg, #65d165 10%, #57D39C 80%);
+    background-color: #22B573;
+    font-family: "freight-sans-pro,Verdana,Geneva,sans-serif";
+    font-size: 100px;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 2px 0 hsla(0,0%,0%,.1);
+    color: white;
+    text-align: center;
+}
+.blockTitle {
+    display: none;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+}
+#fstPage-down {
+    position: absolute;
+    bottom: 16px;
+    height: 18px;
+    width: 100%;
+}
+#fstPage-down a {
+    display: block;
+    height: 18px;
+    width: 32px;
+    margin: 0 auto;
+    background: url(../img/down.png) no-repeat center
+}
+/* nav */
+
+#block-nav {
+    position: relative;
+    top: 0;
+    height: 52px;
+    background-color: #F8F5F0;
+    color: white;
+}
+#block-nav a {
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 52px;
+    cursor: pointer;
+    z-index: 1;
+    color: #403E3B;
+}
+#block-nav a:hover {
+    color: #999;
+}
+#logo {
+    display: inline-block;
+}
+/* block-intro */
+
+#block-intro {
+    height: auto;
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0 100px;
+}
+#intro-icon {
+    height: 300px;
+    width: 100%;
+    line-height: 300px;
+}
+#intro-icon img{
+	margin: 0 0 0 400px;
+	border-radius: 50%
+}
+.link {
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    text-indent: -9999em;
+    -webkit-transition: 0.4s linear;
+    transition: 0.4s ease-in;
+}
+.link:hover {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+#link-github {
+    background: url(../img/github.png) no-repeat center;
+    margin-left: 76px;
+}
+#link-linkedin {
+    background: url(../img/linkedin.png) no-repeat center;
+    margin-left: 76px;
+}
+#myPhoto {
+    height: 270px;
+    width: 270px;
+    display: inline-block;
+    margin: 0 0 0 78px;
+}
+#link-blog {
+    background: url(../img/blog.png) no-repeat center;
+    margin-left: 78px;
+}
+#link-email {
+    background: url(../img/email.png) no-repeat center;
+    margin-left: 76px;
+}
+#intro-text {
+    display: inline-block;
+    margin: 80px 0 0 130px;
+    color: #403E3B;
+
+}
+
+#intro-text li {
+    height: 30px;
+    line-height: 2;
+}
+#intro-text p {
+	line-height: 2;
+}
+#intro-text ul li a {
+    display: inline-block;
+    color:#403E3B;;
+}
+#intro-text ul li a:hover {
+    border-bottom: 2px solid white;
+}
+#intro-text ul li span {
+    display: inline-block;
+    text-align: right;
+    width: 70px;
+}
+#intro-text div {
+    display: inline-block;
+    width: 550px;
+    margin-left: 120px;
+}
+#intro-text>div>p {
+    margin-bottom: 26px;
+}
+/* block-skill */
+
+#block-skill {
+    height: auto;
+    width: 100%;
+    background-color: #0FD499;;
+
+    color: #FFFFFF;
+    padding-bottom: 160px;
+}
+#block-skill .skill-title {
+    width: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+#block-skill .skills {
+    height: auto;
+    width: auto;
+}
+#block-skill ul {
+    display: inline-block;
+    height: auto;
+    width: 210px;
+    margin: 80px 0 0 56px;
+    border: 2px solid #FFFFFF;
+    font-size: 20px;
+    font-family: "Microsoft YaHei light";
+    text-align: center;
+    vertical-align: top;
+}
+#block-skill li {
+    height: 36px;
+    line-height: 36px;
+}
+#block-skill li:first-child {
+    background-color: #FFFFFF;
+    color: #333;
+}
+#block-skill li:hover {
+    background-color: #FFFFFF;
+    color: #333;
+    cursor: default;
+}
+/* block-workEXP */
+
+#block-workEXP {
+    height: auto;
+    width: 100%;
+    background-color:#68B043;
+    color: #e7e7e7;
+    padding: 160px 0;
+
+}
+.prj-intro {
+	line-height: 2;
+}
+
+#block-workEXP .work-title {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+#block-workEXP .workEXP-main {
+    height: auto;
+    width: auto;
+    margin: 100px 0 0 60px;
+}
+#block-workEXP .timebox {
+    margin-left: 194px;
+    font-size: 29px;
+}
+#block-workEXP .timebox li {
+    display: inline-block;
+    margin-top: 5px;
+}
+#block-workEXP .time1 {
+    margin-left: 110px
+}
+#block-workEXP .timeline {
+    height: 27px;
+    width: 868px;
+    margin-left: 42px;
+    background: url(../img/timeline.png) no-repeat center;
+}
+#block-workEXP .workbox {
+    margin-left: 194px;
+}
+#block-workEXP .workbox li {
+    display: inline-block;
+    width: 310px;
+    vertical-align: top;
+}
+#block-workEXP .workbox li label {
+    display: block;
+}
+#block-workEXP .workbox .work-place {
+    font-size: 26px;
+    font-weight: bold
+}
+#block-workEXP .workbox .work-position {
+    font-size: 20px;
+}
+#block-workEXP .workbox .work-do {
+    margin-top: 10px;
+    font-size: 16px;
+}
+/* block-prjEXP */
+
+.block-prjEXP {
+    padding: 50px 0 200px;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #141414;
+    font-family: "freight-sans-pro,Verdana,Geneva,sans-serif";
+    text-shadow: 1px 2px 0 hsla(0,0%,0%,.1);
+}
+.block-prjEXP .prjEXP-title {
+    
+    margin: 30px auto;
+    text-align: center;
+}
+.block-prjEXP .prjs {
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.block-prjEXP .prj {
+    height: auto;
+    margin-left: 105px;
+    margin-bottom: 20px;
+}
+.block-prjEXP .prj .prj-logo {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.block-prjEXP .prj .prj-title {
+    height: auto;
+    font-size: 26px;
+    text-align: center;
+    background-color: #FFFFFF;
+    color: black;
+}
+.block-prjEXP .prj .confi {
+    border-bottom: 2px solid rgba(240, 234, 234, 0.56);
+}
+.block-prjEXP .prj .prj-intro {
+    height: auto;
+    font-size: 20px;
+    text-indent: 1em
+}
+
+/* block-wantMore */
+
+#block-wantMore {
+    width: 100%;
+    background-color: #ED6461;
+    color: #fff;
+}
+#block-wantMore>p {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+/* 百度统计 */
+
+body>a {
+    height: 0;
+}

@@ -1,0 +1,65 @@
+body div ul li a h2 {
+margin:0px;
+padding:0px;
+}
+body {
+  background-color:#EFEFEF;
+  position:relative;
+}
+.card-list-wrap {
+  overflow:hidden;
+  width:950px;
+  position: relative;
+  margin:auto;
+}
+.card-list{
+  padding:0px;
+  width:990px;
+  list-style:none;
+}
+.carditem{
+  width:300px;
+  display:inline-block;
+  position:relative;
+  margin-bottom:38px;
+  margin-right:22px;
+  vertical-align: top;
+  height:500px;
+  background-color:#fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px 0 rgba(158,158,158,0.2);
+}
+.card-main{
+  width:300px;
+}
+.story-image {
+  width:300px;
+  height:260px;
+}
+.commodity-price{
+  position:absolute;
+  right:0px;
+  bottom:0px;
+  background: rgba(185,185,185,0.64);
+  color:#fff;
+  padding: 8px 12px;
+  line-height:1;
+}
+.cardbd{
+  height:220px;
+  line-height: 1.5;
+  font-size: 13px;
+  margin-left: 13px;
+  margin-right: 13px;
+  vertical-align:middle;
+}
+.cardbd a{
+  text-decoration: none;
+  color: #985d3e;
+  vertical-align: middle;
+}
+.cardbd a img{
+  border-radius:50px;
+  vertical-align: middle;
+}
