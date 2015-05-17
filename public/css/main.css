@@ -304,11 +304,13 @@ h2 {
 }
 .block-prjEXP .prj .confi {
     border-bottom: 2px solid rgba(240, 234, 234, 0.56);
+    margin-right: 100px;
 }
 .block-prjEXP .prj .prj-intro {
     height: auto;
-    font-size: 20px;
-    text-indent: 1em
+    font-size: 18px;
+    text-indent: 1em;
+    margin-top: 10px;
 }
 
 /* block-wantMore */
